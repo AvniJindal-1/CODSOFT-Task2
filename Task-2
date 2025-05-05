@@ -1,0 +1,36 @@
+//simple calculator program
+#include <iostream>
+using namespace std;
+int main()
+{
+
+    int first_number , Second_number;
+    char operater;
+    cout<<"Enter a frist number :";
+    cin>>first_number;
+    cout<<"Enter a Second number :";
+    cin>>Second_number;
+    cout<<"Enter a operator :";
+    cin>>operater;
+    switch (operater)
+    {
+    case '+':
+        cout<< "Result =" <<first_number + Second_number <<endl;
+        break;
+    case '-':
+        cout<<" Result=" <<first_number - Second_number <<endl;
+        break;
+    case '*':
+        cout<<" Result=" <<first_number - Second_number <<endl;
+        break;
+    case '/':
+        cout<<" Result=" <<first_number - Second_number <<endl;
+        break;
+    case '%':
+        cout<<" Result=" <<first_number - Second_number <<endl;
+        break;
+    default:
+        cout<<"Invalid operator";
+        break;
+    }
+}
